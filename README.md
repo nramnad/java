@@ -1,2 +1,2 @@
 # java
-For CI
+For CI only
