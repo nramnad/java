@@ -1,3 +1,3 @@
 # java
 For CI only
-Hello, How are you?
+Practing CI with great Manju and Koti
