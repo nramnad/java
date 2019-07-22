@@ -1,3 +1,3 @@
 # java
 For CI only
-Practing CI with great Manju and Koti
+Practing CI with great Shiva, Moin and Vaibhav
