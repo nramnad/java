@@ -1,6 +1,6 @@
 public class HelloWorld {
    public static void main(String[] args) {
       // Prints "Hello, I am here in the terminal window.
-      System.out.println("Hello all, Welcome to Shiva, Moin and Vaibhav");
+      System.out.println("Hello all, Welcome to Gandhi, Nandan and Saurav");
    }
 }
