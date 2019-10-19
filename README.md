@@ -1,3 +1,3 @@
 # java
 For CI only
-Practing CI with great Shiva, Moin and Vaibhav
+Practing CI with great Santhosh and his team
