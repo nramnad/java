@@ -1,3 +1,3 @@
 # java
 For CI only
-Practing CI with great Devop's Icon of weekday leaders
+Practing CI with great Devop's Icon of Sourabh, Abinash and Namrata
