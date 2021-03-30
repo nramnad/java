@@ -13,7 +13,7 @@ stages:
       - bash: echo $(Build.BuildNumber)
       - bash: echo $(Build.BuildId)
       - bash: echo $(Build.SourceBranchName)
-      - bash: echo $(Build.SourceDirectory)
+      - bash: echo $(Build.SourcesDirectory)
       - bash: echo $(System.DefaultWorkingDirectory)
       - bash: ls -r  $(System.DefaultWorkingDirectory)
       - bash: echo $(Build.DefaultWorkingDirectory)
