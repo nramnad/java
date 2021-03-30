@@ -16,7 +16,7 @@ stages:
       - bash: echo $(Build.SourcesDirectory)
       - bash: echo $(System.DefaultWorkingDirectory)
       - bash: ls -r  $(System.DefaultWorkingDirectory)
-      - bash: echo $(Build.DefaultWorkingDirectory)
+      - bash: echo $(System.DefaultWorkingDirectory)
 #     - job: SecondJob
 #       steps:
 #       - bash: echo Build Second Job
