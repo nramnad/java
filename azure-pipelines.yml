@@ -20,7 +20,7 @@ stages:
   jobs:
     - job: DevFist
       steps:
-      - bash: echo $(enviroment)DevDeploy
+      - bash: echo $(enviroment)DeployJob
     - job: DevSeccond
       steps:
       - bash: echo Dev Second Job
