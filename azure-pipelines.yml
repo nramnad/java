@@ -15,8 +15,22 @@ stages:
       - bash: echo $(Build.SourceBranchName)
       - bash: echo $(Build.SourcesDirectory)
       - bash: echo $(System.DefaultWorkingDirectory)
-      - bash: ls -r  $(System.DefaultWorkingDirectory)
+      - bash: ls -R  $(System.DefaultWorkingDirectory)
       - bash: echo $(System.DefaultWorkingDirectory)
+      - bash: echo $(Build.ArtifactsStagingDirectory)
+      - bash: java -version
+      - bash: node --version
+      - bash: python --version
+      - bash: mvn -version
+      - bash: ls -R $(Build.ArtifactsStagingDirectory)
+      - task: CopyFiles@2
+        inputs:
+          SourceFolder: '$(System.DefaultWorkingDirectory)'
+          Contents: |
+            **/*.yml
+            **/*.java
+          TargetFolder: '$(Build.ArtifactsStagingDirectory)'
+      - bash: ls -R $(Build.ArtifactsStagingDirectory)
 #     - job: SecondJob
 #       steps:
 #       - bash: echo Build Second Job
